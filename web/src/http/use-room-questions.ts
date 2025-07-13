@@ -10,6 +10,8 @@ export function useRoomsQuestions(roomId: string) {
       );
       const result: GetRoomsQuestionsResponse = await response.json();
 
+      console.log(result);
+
       return result;
     },
   });

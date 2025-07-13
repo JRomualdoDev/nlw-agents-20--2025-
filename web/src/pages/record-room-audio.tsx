@@ -16,6 +16,7 @@ export function RecordRoomAudio() {
 
   const [isRecording, setIsRecording] = useState(false);
   const recorder = useRef<MediaRecorder | null>(null);
+  const intervalRef = useRef<NodeJS.Timeout>(null);
 
   function stopRecording() {
     setIsRecording(false);

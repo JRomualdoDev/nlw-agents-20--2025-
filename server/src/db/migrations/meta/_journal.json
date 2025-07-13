@@ -15,6 +15,20 @@
       "when": 1752066747092,
       "tag": "0001_salty_natasha_romanoff",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752285337372,
+      "tag": "0002_boring_nitro",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752325172700,
+      "tag": "0003_talented_cannonball",
+      "breakpoints": true
     }
   ]
 }
